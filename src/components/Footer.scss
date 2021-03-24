@@ -1,0 +1,24 @@
+.numbers {
+	display: flex;
+	justify-content: space-around;
+}
+
+.content__context {
+	text-align: center;
+  position: relative;
+}
+
+.footer {
+	margin-bottom: 50px;
+	&__text {
+		font-size: 20px;
+		color: #4f4f4f;
+		margin: 0;
+	}
+	&__number {
+		font-size: 50px;
+		font-weight: bold;
+		color: #828282;
+		margin: 0;
+	}
+}
